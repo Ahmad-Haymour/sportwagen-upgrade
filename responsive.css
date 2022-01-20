@@ -1,0 +1,75 @@
+@media screen and (max-width: 991px){
+    .nav-logo{
+        width: 160px;
+    }
+
+    .para__width{
+        max-width: 80%;
+        margin: 1rem auto;
+      }
+
+    .last-sec div .card{
+        max-width: 35rem;
+      }
+    #footer__container{
+        display: grid !important;
+        grid-template-columns:repeat(3, 1fr) !important;
+        grid-template-rows: auto auto;
+        gap: 50px;
+      }
+      .first-part{
+        grid-area: 1/1/1/4;
+      }
+}
+
+@media screen and (max-width:768px){
+    :root{
+        font-size: 14px;
+    }
+
+    .para__width{
+        max-width: 90%;
+        margin: 1rem auto;
+      }
+
+      article .card{
+        max-width: 350px;
+        margin: 0 auto;
+        border: none !important;
+    }
+
+      .bg-img{
+          width: 100%;
+
+      }
+
+    #footer__container{
+        display: grid !important;
+        grid-template-columns:1fr !important;
+        grid-template-rows: repeat(4, auto);
+        gap: 0;
+        text-align: center;
+        justify-items: center;
+      }
+      .parts{
+          margin: 1rem auto;
+      }
+      .second-part{
+          grid-area: 2/1/3/2 ;
+      }
+      .third-part{
+          grid-area: 3/1/4/2;
+      }
+      .fourth-part{
+          grid-area: 4/1/5/2;
+      }
+}
+
+
+
+
+
+
+
+/*----------------------------------------Lamborghini-------------------------------*/
+

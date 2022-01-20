@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://kit.fontawesome.com/64a9eb38b1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <title>SportWagen</title>
+  </head>
+  <style>
+   
+   body::before{
+            content: '';
+            display: block;
+            cursor: default;
+        }
+  </style>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light d-flex justify-content-between fixed-top"
+    >
+      <img src="/images/logo_light_small.png" class="nav-logo" />
+
+      <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse"
+            data-bs-target="#mainmenu">
+            <i class="fas fa-bars text-white"></i>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="mainmenu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">SPORTWAGENVERLEIH</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown">SPORTWAGEN
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a href="./ferrari/ferrari.html" class="dropdown-item">Ferrari</a></li>
+              <li><a href="./lamborghini/lamo.html" class="dropdown-item">Lamborghini</a></li>
+              <li><a href="./porsche/porsche.html" class="dropdown-item">Porsche</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a href="#" class="nav-link">GUTSCHEIN</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">FAHRZEUGBÖRSE</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">MAGAZIN</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">KONTAKT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!------------------------------------------------------- Header -->
+
+    <header id="header">
+
+        <div class="container text-white pt-5" id="header__text">
+            <h1 class="mt-5 pt-5">Sportwagen-leihen.com</h1>
+            <h6 class="pt-2">Emotion erfahren</h6>
+
+             <button type="button" class="btn btn-outline-light rounded mt-4">
+                <a class="text-white text-decoration-none h4 text-uppercase" href="https://sportwagen-leihen.com/wp-content/uploads/emotion_2018.mp4" target="_blank"> <i class="far fa-play-circle text-white"></i>
+                 Video abspielen</a>
+            </button>
+
+        </div>
+
+
+
+    </header>
+
+    <!--------------------------------------------------------------------- MAIN -->
+    <main class="pt-5">
+
+        <section class="text-center my-5" id="section__width-1">
+            <em>Ihre Sportwagenvermietung</em>
+            <h3 class="h3 mt-4">Wir liefern deutschlandweit bis vor Ihre Haustür</h3>
+            <p class="para__width">
+                Leihen Sie sich bei unserer <span class="underline"> Sportwagenvermietung </span> zu fairen Preisen erstklassige Sportwagen: Wir bieten Ihnen wahre Wunderwerke deutscher Ingenieurskunst. Ob Sie einen <span class="underline"> Porsche 911,</span> einen <span class="underline"> Audi R8</span> oder, den feuerroten <span class="underline"> Ferrari 458</span> oder den<span class="underline">  Lamborghini Huracan mieten</span> – steigen Sie ein und erfahren Sie Emotionen. Genießen Sie das Gefühl, wenn Sie im perfekt konstruierten Cockpit unserer Luxusautos am Steuer sitzen und dank mehrerer hundert PS in nur wenigen Sekunden auf bis zu 300 km/h beschleunigen. Sie sind nur noch wenige Klicks von diesem unvergleichlichen Erlebnis entfernt. Wählen Sie jetzt Ihren Traumwagen. Wir versprechen traumhafte Autos, persönlicher Service und faire Preise.
+            </p>
+        </section>
+
+
+        <section class="py-5 text-center" id="galery-sec">
+            <em>Wagen Wählen</em>
+            <div class="container m-xs-1 my-md-5">
+                <div class="d-flex row justify-content-md-center">
+                    
+                    <article class="col-lg-6 col-xl-4 mb-5">
+
+                        <div id="cars_res" class="card h-100" style="min-height: 515px; min-width: 355px;">
+                            <span class="position-absolute text-white p-2 rounded-circle" id="neu_ang">Neu</span>
+
+                            <div class="bg-img text-center"
+                                 style="background-image: 
+                                    url(/images/ferrari_auswahl-600x257.jpg);
+                                    background-size: cover;
+                                    background-position:center;
+                                    background-repeat: no-repeat;
+                                    ">
+
+                                <a href="./ferrari/ferrari.html">
+                                    <div class="bg-img__text p-4">
+                                        <ul>
+                                            <li>3,5 s</li>
+                                            <li>325 km/h</li>
+                                            <li>419 KW (570 PS)</li>
+                                            <li>4.499 cm<sup>3 </sup>(8-Zylinder)</li>
+                                            <li>rot</li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder mt-3">Ferrari 458</h4>
+                                    <p class="h6 my-4">
+                                        Fahren Sie mit diesem Klassiker aus der Scuderia Ferrari vor – und Ihnen ist andächtiger Respekt und offenkundige Begeisterung garantiert.
+                                    </p>
+                                    <button type="button" class="btn btn-light border-dark w-100 my-md-3 my-sm-5 py-sm-4 py-md-3">AB 699,- MIETEN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-6 col-xl-4 mb-5">
+                        <div class="card h-100">
+
+                            <div id="cars_res" class="card h-100" 
+                                    style="min-height: 515px;
+                                    min-width: 355px;">
+
+                                    <span class="position-absolute text-white p-2 rounded-circle" id="neu_ang">Neu</span>
+    
+                                    <div class="bg-img text-center"
+                                     style="background-image: 
+                                        url(/images/lamborghini_huracan_04-600x257.jpg);
+                                        background-size: cover;
+                                        background-position:center;
+                                        background-repeat: no-repeat;
+                                        ">
+    
+                                    <a href="./lamborghini/lamo.html">
+                                        <div class="bg-img__text p-4">
+                                            <ul>
+                                                <li>3,1 s</li>
+                                                <li>330 km/h</li>
+                                                <li>449 KW (610 PS)</li>
+                                                <li>5.200 cm<sup>3</sup>(10-Zylinder)</li>
+                                                <li>Giallo Midas</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder mt-3">Lamborghini Huracán</h4>
+                                    <p class="h6 my-4">
+                                        Der Huracan aus dem Hause Lamborghini gehört zweifelsohne zu den exquisitesten Sportwagen der Welt.
+                                    </p>
+                                    <button type="button" class="btn btn-light border-dark w-100 my-md-3 my-sm-5 py-sm-4 py-md-3">AB 799,- MIETEN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-6 col-xl-4 mb-5">
+                        <div class="card h-100">
+
+                            <div id="cars_res" class="card h-100" >
+                                <span class="position-absolute text-white p-2 rounded-circle" id="neu_ang">Alt</span>
+    
+                                <div class="bg-img text-center"
+                                     style="background-image: 
+                                        url(./porsche/porsche_images/porsche_911_video_03.jpg);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        ">
+                                    <a href="./porsche/porsche.html">
+                                        <div class="bg-img__text p-4">
+                                            <ul>
+                                                <li>3,4 s</li>
+                                                <li>315 km/h</li>
+                                                <li>419 KW (570 PS)</li>
+                                                <li>3.800 cm<sup>3</sup> (6-Zylinder)</li>
+                                                <li>Schwarz</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder mt-3">Porsche 911 Turbo</h4>
+                                    <p class="h6 my-4">
+                                        Perfekter Fahrspaß mit dem Klassiker und Wunderwerk deutscher Ingenieurskunst.
+                                    </p>
+                                    <button type="button" class="btn btn-light border-dark w-100 my-md-3 my-sm-5 py-sm-4 py-md-3">AB 299,- MIETEN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center my-5" id="section__width-2">
+            <em>LEIDENSCHAFT FÜR SPORTWAGEN</em>
+            <p class="para__width">
+                Emotion erfahren – von Autoliebhaber für Autoliebhaber. Das Team unserer <span class="underline">Sportwagenvermietung</span> hat Benzin im Blut und die großartigsten Sportwagen in unserer Garage. Das kraftvolle Röhren des Motors eines<span class="underline"> Luxusautos</span> ist für uns eine der schönsten Soundkulissen auf der Welt. Ein leichter Druck aufs Gaspedal genügt – und unmittelbar setzt der Körper Adrenalin und Endorphine frei. Mit unseren <span class="underline"> Sportwagen</span> und <span class="underline"> Hochzeitsautos</span> möchten wir diese Emotionen mit Ihnen teilen. Sie sind nur wenige Klicks davon entfernt, schnell und sicher bei uns in <span class="underline"> Bad Oeynhausen einen Sportwagen zu leihen </span>und den perfekten Fahrspaß zu erfahren, gerne auch als <span class="underline"> Langzeitmiete.</span> Geteilte Emotion ist doppelte Emotion. Mieten Sie sich jetzt Ihr Traumauto und machen Sie Ihre eigenen <span class="underline"> Erfahrungen mit sportwagen-leihen.com.</span>
+            </p>
+        </section>
+
+        <!---------------------------------------------- NEWSLETTER -->
+
+        <section class="newsletter py-2">
+
+            <form class="text-light d-flex flex-column text-center para__width">
+
+                <div class="mb-3">
+                    <h3>ZUM NEWSLETTER ANMELDEN</h3>
+                    <p class="py-3">
+                        Bleiben Sie mit unserem Newsletter über neue Fahrzeuge und Aktionen sowie interessanten Beiträgen rund um das Thema Sportwagen auf dem Laufenden. Ihre E-Mail-Adresse geben wir nicht weiter. Ehrenwort!
+                    </p>
+                </div>
+
+                <div class="mb-3 form-check d-flex justify-content-center py-1">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Ich akzeptiere die <a href="#">Datenschutzerklärung.</a></label>
+                </div>
+
+                <div class="mb-3 d-flex gap-5">
+
+                    <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Main Adresse eingeben">
+
+                    <button type="submit" class="btn border-2 border-light text-light w-25">Anmelden</button>
+                </div>
+
+            </form>
+        </section>
+
+<!--------------------------------------------------------------------------------- BEWERTUNG -->
+
+        <section class="sec-5 text-center my-5" id="sec__bewertung">
+
+            <em>ERFAHRUNGEN UNSERER KUNDEN</em> 
+
+            <br>
+            <span class="span__width"><i class="fas fa-quote-left"></i> Super Wochenende gehabt, alles bestens geklappt! Kann ich nur weiterempfehlen!</span>
+
+            <h4 class="mt-5 mb-3">Darius Zajonz</h4>
+
+            <span class="text-decoration-underline">UNTERWEGS IM AUDI R8 V10+ COUPÉ</span>
+
+            <div class="stars mt-4">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <br>
+
+            <img class="rounded-circle" src="https://sportwagen-leihen.com/wp-content/uploads/kundenstimmen_darius_zajonz-300x300.jpg">
+
+            
+            <span class="mt-5" style="display: block;">Alle Erfahrungen</span>
+
+        </section>
+
+        <!--------------------------------------------- Second Gallery -->
+
+        <section class="last-sec p-5">
+            <em>Aus dem MAGAZIN</em>
+
+            <div class="d-flex row justify-content-center gap-5">
+    
+                <div class="card p-0 bg-transparent border-0">
+
+                    <img src="https://sportwagen-leihen.com/wp-content/uploads/legendaere_rennstrecken_in_asien_australien_afrika-480x270.jpg" class="card-img-top">  
+
+                    <div class="card-body">
+                      <h6 class="card-title">Legendäre Rennstrecken in Asien, Australien & Afrika</h6>
+                      <p class="card-text">
+                          Wenn Rennsportfans an berühmte Rennstrecken denken, kommen ihnen meist zuerst Rundkurse in Europa und in Amerika in den Sinn. Doch… 
+                          <span class="underline">Weiterlesen</span>
+                      </p>
+                    </div>
+
+                </div>
+
+                <div class="card p-0 bg-transparent border-0">
+
+                    <img src="https://sportwagen-leihen.com/wp-content/uploads/italienische_sportwagen-480x270.jpg" class="card-img-top">
+
+                    <div class="card-body">
+                      <h6 class="card-title">Italienische Sportwagen</h6>
+                      <p class="card-text">
+                        Wer an italienische Sportwagen denkt, dem fallen zuerst die Flaggschiffe der Branche ein: Ferrari und Lamborghini. Diese straßentauglichen Rennwagen sind… 
+                        <span class="underline">Weiterlesen</span>
+                      </p>
+                    </div>
+
+                </div>
+
+                <div class="card p-0 bg-transparent border-0">
+                    <img src="https://sportwagen-leihen.com/wp-content/uploads/deutsche_sportwagen-480x270.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                      <h6 class="card-title">Deutsche Sportwagen</h6>
+                      <p class="card-text">
+                        Die Ingenieurskunst ist ein hohes Gut – vor allem bei Autos. Deutsche Sportwagen genießen weltweit einen exzellenten Ruf. Sie gehören… 
+                        <span class="underline">Weiterlesen</span>
+                      </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <div class="bg-danger p-1"></div>
+    <!---------------------------------------------------------- FOOTER -->
+
+   
+    <footer class="footer text-light">
+
+        <div class="p-5 container" id="footer__container">
+
+            <div class="first-part parts">
+                <ul>
+                    <li class="mb-3"><img src="/images/emotion_erfahren.png"></li>
+                    <li>Leihen Sie sich bei uns erstklassige Sportwagen. Wir bieten Ihnen wahre Wunderwerke deutscher Ingenieurskunst. Einsteigen und Emotion erfahren.</li>
+                </ul>
+            </div>
+            <div class="second-part parts">
+                    <ul>
+                        <h6>Informationen</h6>
+                        <li><a href="#"> Kontakt</a></li>
+                        <li><a href="#"> FAQ</a></li>
+                        <li><a href="#">Erfahrungen</a> </li>
+                        <li><a href="#"> Sitemap</a></li>
+                        <li><a href="#"> Partner</a></li>
+                    </ul>
+            </div>
+
+            <div class="third-part parts">
+                <ul>
+                    <h6>Rechtliches</h6>
+                    <li><a href="#">Straßenverkehrsordnung</a> </li>
+                    <li><a href="#"> Online-Streitbeilegung</a> </li>
+                    <li><a href="#"> Vermietbedingungen</a></li>
+                    <li><a href="#"> Datenschützerklärung</a></li>
+                    <li><a href="#"> Impressium</a></li>
+                </ul>
+            </div>  
+
+            <div class="fourth-part parts">
+                <ul>
+                    <h6>Standort Hamburg</h6>
+                    <li><a href="#" class="telephone">040-65599999</a></li>
+                    <li><a href="#" class="map">Billhorner Röhrendamm 8 <br>
+                        <span class="p-4"> 20539 Hamburg</span></a></li>
+                    <br>
+                    <h6>Standort Bad Oeynhausen</h6>
+                    <li><a href="#" class="telephone">040-65599999</a></li>
+                    <li><a href="#" class="map">Mindener Str.29 32547 <br>
+                    <span class=" p-4">Bad Oeynhausen</span></a></li>  
+                </ul>
+            </div>    
+        </div>
+
+        <div class="bottom-footer">  
+            <p>
+                &copy; 2021 sportwagen-leihen.com <br>
+                    Alle Preise in Euro inkl. gesetzlicher MwSt. und versandkostenfrei.
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
