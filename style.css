@@ -192,7 +192,7 @@ input[type=email]{min-width: 150px;}
 .first-part{
   grid: 1/1/2/2;
 }
-.secont-part{
+.second-part{
   grid: 1/2/2/3;
 }
 .third-part{
