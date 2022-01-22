@@ -25,7 +25,7 @@ div.navbar-collapse {
 #header{
     height: 65vh; 
     /* background-image: url(/images/audi1-r8__header.jpg); */
-    background-image: url(https://ahmad-haymour.github.io/sportwagen-upgrade/images/audi1-r8__header);
+    background-image: url(./images/audi1-r8__header.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
     background-position: center; 
@@ -162,7 +162,7 @@ input[type=email]{min-width: 150px;}
 }
 /*----------------------------------------------------FOOTER---------------------*/
 .footer{
-  background-image: url(/images/carbon.png);
+  background-image: url(./images/carbon.png);
   height: 100%;
   margin-bottom: 0;
 }
