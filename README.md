@@ -1,4 +1,4 @@
 # sportwagen-upgrade
 
 
-[![sport-cars](https://rent-sport-cars.netlify.app/)]
+[sport-cars](https://rent-sport-cars.netlify.app/)
